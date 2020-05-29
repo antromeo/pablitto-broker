@@ -19,7 +19,7 @@ The library was tested on Debian 10 buster
 2) Build and run
     ```
     cd pablitto-broker
-    go build run port_number
+    go run broker.go port_number
   
     ```
     
