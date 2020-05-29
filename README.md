@@ -23,7 +23,7 @@ The library was tested on Debian 10 buster
   
     ```
     
-Link YouTube tutorial:
+Playlist YouTube: https://www.youtube.com/watch?v=shWXoqBa2OY&list=PLcJaq9O6tuqb-dEidWH7ExByMqrzLxRYN
 
 Visit the doc
   
