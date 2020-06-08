@@ -2,7 +2,6 @@ package main
 
 
 import (
-	//. "broker-pablitto/packets"
 	. "broker-pablitto/control_packets"
 	"bufio"
 	"fmt"
