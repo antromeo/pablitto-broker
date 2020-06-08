@@ -9,15 +9,15 @@ import (
 
 type Topic struct{
 	topic_name string
-	connections []net.Conn //per ora sono con la lettera grande per fare append
+	connections []net.Conn 
 }
 
 
 
 func (t *Topic)add_connection(connection net.Conn){
 	t.connections=append(t.connections, connection)
-	fmt.Printf(" %v\n",  t.connections)
-	fmt.Println(len(t.connections))
+	//fmt.Printf(" %v\n",  t.connections)
+	//fmt.Println(len(t.connections))
 }
 
 func (t *Topic)remove_connection(connection net.Conn){
@@ -93,7 +93,7 @@ func (s *Subscriptions)IsValidTopic(topic_name string) bool{
 			fmt.Println("# deve essere alla fine")
 			return false
 		}
-		fmt.Println(member)
+		//fmt.Println(member)
 	}
 	return true
 }
