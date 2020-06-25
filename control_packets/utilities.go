@@ -1,7 +1,5 @@
 package control_packets
 
-
-
 const (
 	Connect     = 1
 	Connack     = 2
@@ -19,13 +17,16 @@ const (
 	Disconnect  = 14
 )
 
+const (
+	Connection_accepted           = 0x00
+	Unacceptable_protocol_version = 0x01
+	Identifier_rejected           = 0x02
+	Server_Unavailable            = 0x03
+	Bad_username_password         = 0x04
+	Not_authorized                = 0x05
+	Nothing_response              = 0xFF
+)
 
 const (
-	Connection_accepted             = 0x00
-	Unacceptable_protocol_version   = 0x01
-	Identifier_rejected             = 0x02
-	Server_Unavailable              = 0x03
-	Bad_username_password           = 0x04
-	Not_authorized                  = 0x05
-	Nothing_response                = 0xFF
+	Keep_alive_duration = 60
 )
