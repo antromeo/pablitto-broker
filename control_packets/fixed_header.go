@@ -59,7 +59,7 @@ func decode_len(reader io.Reader) (int, error) {
 	var rLength uint32
 	var multiplier uint32
 	b := make([]byte, 1)
-	for multiplier < 27 { //fix: Infinite '(digit & 128) == 1' will cause the dead loop
+	for multiplier < 27 { 
 		_, err := io.ReadFull(reader, b)
 		if err != nil {
 			return 0, err
