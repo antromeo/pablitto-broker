@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: pablitto-broker
+  name: pablitto-broker
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pablitto-broker
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: pablitto-broker
+    spec:
+      containers:
+      - image: romeocontainers/pablitto-broker
+        name: pablitto-broker
