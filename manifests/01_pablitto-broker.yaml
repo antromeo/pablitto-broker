@@ -5,6 +5,7 @@ metadata:
   labels:
     app: pablitto-broker
   name: pablitto-broker
+  namespace: pablitto
 spec:
   replicas: 1
   selector:
