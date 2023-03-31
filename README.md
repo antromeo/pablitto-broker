@@ -1,6 +1,6 @@
 # pablitto-broker
 
-pablitto-broker is broker implementation of MQTT v3.1.1 broker (http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html)
+pablitto-broker is implementation of MQTT v3.1.1 broker (http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html)
 
 ![alt text](https://github.com/antromeo/pablitto-broker/blob/master/logo/pablitto.png)
 
